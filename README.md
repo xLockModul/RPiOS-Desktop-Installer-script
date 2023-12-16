@@ -1,19 +1,22 @@
-Sure, here is a short text for an README.md file for a GitHub page for the script:
-
 # Desktop Environment Installer for Raspberry Pi
 
 This script simplifies the process of installing and setting up desktop environments on Raspberry Pi devices. It provides a user-friendly interface that allows you to select from a variety of desktop environments, including Xfce4, Cinnamon, LXQt, MATE, GNOME Shell, KDE Plasma, Budgie, Deepin, Enlightenment, LXDE, Pantheon, and Trinity Desktop Environment.
 
 ## Installation
 
-1. Download the `desktop-installer.sh` script to your Raspberry Pi.
+1. Download the `desktop-installer.sh` script to your Raspberry Pi using `curl`.
+
+```bash
+curl https://github.com/xLockModul/RPiOS-Desktop-Installer-script/blob/a4661ac4ed8673318e9304d6ab894209ca618d8f/desktop_installer.sh > desktop-installer.sh
+```
+
 2. Make the script executable using the following command:
 
 ```bash
 chmod +x desktop-installer.sh
 ```
 
-3. Run the script using the following command:
+3. Run the script directly using the following command:
 
 ```bash
 ./desktop-installer.sh
