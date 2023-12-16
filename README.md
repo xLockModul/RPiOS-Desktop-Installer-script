@@ -2,6 +2,16 @@
 
 This script simplifies the process of installing and setting up desktop environments on Raspberry Pi devices. It provides a user-friendly interface that allows you to select from a variety of desktop environments, including Xfce4, Cinnamon, LXQt, MATE, GNOME Shell, KDE Plasma, Budgie, Deepin, Enlightenment, LXDE, Pantheon, and Trinity Desktop Environment.
 
+**Recommended Operating System**
+
+This script is specifically designed to work with Raspberry Pi OS Lite 64-bit or 32-bit for optimal performance. However, it can also be used on Raspberry Pi OS with the standard desktop (PIXEL) to replace the existing desktop environment with the selected one.
+
+**Replacing the Existing Desktop**
+
+If you are using Raspberry Pi OS with the standard desktop (PIXEL), you can use this script to replace it with the selected desktop environment. To do this, simply follow the on-screen instructions to select the desired desktop environment, and then the script will automatically remove and replace the existing desktop.
+
+Please note that some desktop environments may not be as well-tested as others on Raspberry Pi, so you may experience some bugs. It is also recommended to back up your Raspberry Pi before using this script, in case you need to revert to the original desktop environment.
+
 ## Installation
 
 1. **Check if curl is installed:**
@@ -51,7 +61,9 @@ chmod +x desktop-installer.sh
 ## Notes
 
 * Some desktop environments may not be as well-tested as others on Raspberry Pi, so you may experience some bugs.
-* Please proceed with caution when installing the Deepin desktop environment, as it is not officially maintained for Raspberry Pi.
+* **Please proceed with caution when installing the Deepin desktop environment, as it is not officially maintained for Raspberry Pi.**
+* You can use this script to replace the existing desktop environment on Raspberry Pi OS with the standard desktop (PIXEL).
+* Please back up your Raspberry Pi before using this script.
 
 ## License
 
