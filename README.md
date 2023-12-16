@@ -4,26 +4,41 @@ This script simplifies the process of installing and setting up desktop environm
 
 ## Installation
 
-1. Download the `desktop-installer.sh` script to your Raspberry Pi using `curl`.
+1. **Check if curl is installed:**
+
+```bash
+command -v curl
+```
+
+If curl is installed, this command will print the path to the curl executable.
+
+2. **Install curl if it is not installed:**
+
+```bash
+sudo apt install curl
+```
+
+3. **Download the `desktop-installer.sh` script to your Raspberry Pi using curl:**
 
 ```bash
 curl https://github.com/xLockModul/RPiOS-Desktop-Installer-script/blob/a4661ac4ed8673318e9304d6ab894209ca618d8f/desktop_installer.sh > desktop-installer.sh
 ```
 
-2. Make the script executable using the following command:
+4. **Make the script executable:**
 
 ```bash
 chmod +x desktop-installer.sh
 ```
 
-3. Run the script directly using the following command:
+5. **Run the script directly using the following command:**
 
 ```bash
 ./desktop-installer.sh
 ```
 
-4. Follow the on-screen instructions to select the desired desktop environment and set it as the default.
-5. Once the installation is complete, the Raspberry Pi will restart and the selected desktop environment will be loaded.
+6. **Follow the on-screen instructions to select the desired desktop environment and set it as the default.**
+
+7. **Once the installation is complete, the Raspberry Pi will restart and the selected desktop environment will be loaded.**
 
 ## Features
 
